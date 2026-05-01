@@ -10,5 +10,5 @@ COPY hello.java /app
 # Compile the java file inside the container
 RUN javac hello.java
 
-# Command to run the application when the container starts
+# Command to run application when the container starts
 CMD ["java", "hello"]
